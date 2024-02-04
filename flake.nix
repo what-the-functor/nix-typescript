@@ -19,6 +19,7 @@
           # Default environment for typescript and javascript development
           default = pkgs.mkShell {
             packages = [
+              pkgs.nodePackages.eslint
               pkgs.nodePackages.live-server
               pkgs.nodePackages.prettier
               pkgs.nodePackages.typescript

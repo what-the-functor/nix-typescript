@@ -2,6 +2,7 @@
 
 A minimal TypeScript and JavaScript development environment as a Nix flake, based on:
 - typescript language server
+- [eslint](https://eslint.org)
 - [live server](https://github.com/tapio/live-server)
 - [prettier](https://prettier.io)
 
