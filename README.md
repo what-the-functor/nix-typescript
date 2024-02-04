@@ -5,6 +5,7 @@ A minimal TypeScript and JavaScript development environment as a Nix flake, base
 - [eslint](https://eslint.org)
 - [live server](https://github.com/tapio/live-server)
 - [prettier](https://prettier.io)
+- [vscode language servers](https://github.com/hrsh7th/vscode-langservers-extracted) (html, css, json, eslint)
 
 ## Usage
 

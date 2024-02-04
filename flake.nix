@@ -24,6 +24,7 @@
               pkgs.nodePackages.prettier
               pkgs.nodePackages.typescript
               pkgs-unstable.nodePackages.typescript-language-server
+              pkgs.nodePackages.vscode-langservers-extracted
             ];
           };
 
