@@ -8,15 +8,17 @@
 
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
-      let
-        pkgs = import nixpkgs { inherit system; };
+      let pkgs = import nixpkgs { inherit system; };
 
       in {
         devShells = {
 
           # Default environment for typescript and javascript development
           default = pkgs.mkShell {
-            packages = [ pkgs.nodePackages.typescript-language-server ];
+            packages = [
+              pkgs.nodePackages.typescript
+              pkgs.nodePackages.typescript-language-server
+            ];
           };
 
           # Nix environment for development of this flake
