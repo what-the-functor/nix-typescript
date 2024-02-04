@@ -20,6 +20,7 @@
           default = pkgs.mkShell {
             packages = [
               pkgs.nodePackages.live-server
+              pkgs.nodePackages.prettier
               pkgs.nodePackages.typescript
               pkgs-unstable.nodePackages.typescript-language-server
             ];
